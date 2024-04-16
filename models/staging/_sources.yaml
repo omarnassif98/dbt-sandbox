@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: app
+    description: "Toters application data shipped to Bigquery using Data Transfer Service (DTS)"
+    database: calm-buttress-269623
+    schema: anything_but_app
+    tables:
+      - name: categories
+      - name: item_ratings
+      - name: items
+      - name: orders
+      - name: ratings
+      - name: store_items
+      - name: stores
+      - name: user_wallets
