@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: int_orders
+    config:
+      materialized: view
+  - name: int_categories
+    config:
+      materialized: view
+  - name: int_store_items
+    config:
+      materialized: view
+  - name: int_item_ratings
+    config:
+      materialized: view
+  
