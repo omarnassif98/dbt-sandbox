@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: fct_last_orders_for_client
+    config:
+      materialized: view
+  - name: fct_compensation_per_order
+    config:
+      materialized: view
+  - name: dim_store_items
+    config:
+      materialized: view
+  - name: agg_orders
+    config:
+      materialized: view
+  - name: dim_item_ratings
+    config:
+      materialized: table
+  
